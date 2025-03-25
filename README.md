@@ -1,1 +1,1 @@
-It's a simple recipe website built as part of the Odin Project. I used my HTML skills to create it.
+It's a simple recipe website built as part of the Odin Project. I used my HTML skills to create it and CSS skills to style it.
