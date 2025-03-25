@@ -6,3 +6,16 @@
 h1{
     color: yellowgreen;
 }
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 16px 32px;
+    font-weight: 600;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+}
