@@ -142,3 +142,34 @@
     width: 55vw;
     text-align: end;
 }
+
+.sec4{
+    color: white;
+    background-color: #3882F6;
+    width: 70vw;
+    margin: 50px auto;
+    padding: 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec4__left{
+
+}
+
+.sec4__left__primary{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sec4__right{
+    color: white;
+    background-color:  #3882F6;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+}
