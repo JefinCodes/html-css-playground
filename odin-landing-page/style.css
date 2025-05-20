@@ -60,7 +60,7 @@
 
 .header__content__left__btn{
     color: white;
-    background-color: rgba(2, 152, 211, 0.829);
+    background-color: #3882F6;
     font-size: 14px;
     font-weight: 600;
     border: none;
@@ -75,4 +75,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sec2{
+    width: 70vw;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.sec2__title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.sec2__content{
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec2__content__card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec2__content__card__img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgba(2, 152, 211, 0.829);
+    border-radius: 10px;
+}
+
+.sec2__content__card__text{
+    width: 130px;
+    text-align: center;
+    color: rgb(90, 89, 89);
+    font-size: 14 px;
 }
