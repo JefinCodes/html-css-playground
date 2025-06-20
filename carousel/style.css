@@ -30,6 +30,10 @@ body{
     padding: 10px;
 }
 
+.scroll-container::-webkit-scrollbar{
+    display: none;
+}
+
 .card{
     width: 339px;
     height: 430px;
@@ -40,6 +44,7 @@ body{
     align-items: center;
     font-size: 2rem;
     font-weight: bold;
+    font-family: 'Roboto';
     color: #333;
     background-color: #f0f0f0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
