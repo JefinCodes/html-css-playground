@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100w;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-container{
+    width: 720px;
+    height: 467px;
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.card{
+    width: 339px;
+    height: 430px;
+    border: 1px solid red;
+    flex: 0 0 auto;
+}
