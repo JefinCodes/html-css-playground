@@ -19,15 +19,22 @@ body{
     gap: 20px;
 }
 
-.scroll-container{
-    width: 720px;
-    height: 467px;
+.scroll-frame{
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.scroll-container{
+    width: 698px;
+    height: 450px;
     display: flex;
     gap: 20px;
     overflow-x: auto;
     scroll-behavior: smooth;
-    padding: 10px;
+    scroll-snap-type: x mandatory;
 }
 
 .scroll-container::-webkit-scrollbar{
@@ -35,6 +42,7 @@ body{
 }
 
 .card{
+    scroll-snap-align: start;
     width: 339px;
     height: 430px;
     border: 1px solid red;
