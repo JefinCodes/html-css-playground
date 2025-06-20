@@ -12,6 +12,13 @@ body{
     align-items: center;
 }
 
+.scroll-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .scroll-container{
     width: 720px;
     height: 467px;
@@ -19,6 +26,7 @@ body{
     display: flex;
     gap: 20px;
     overflow-x: auto;
+    scroll-behavior: smooth;
     padding: 10px;
 }
 
@@ -35,4 +43,9 @@ body{
     color: #333;
     background-color: #f0f0f0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.scroll-left,
+.scroll-right{
+    cursor: pointer;
 }
